@@ -1,0 +1,46 @@
+{
+  "total_valid": 50000,
+  "total_invalid": 144821,
+  "strata": {
+    "weak": {
+      "count": 47638,
+      "percentage": 95.27600000000001,
+      "bounds": [
+        0,
+        200
+      ]
+    },
+    "low_mid": {
+      "count": 1235,
+      "percentage": 2.4699999999999998,
+      "bounds": [
+        200,
+        350
+      ]
+    },
+    "high_mid": {
+      "count": 256,
+      "percentage": 0.512,
+      "bounds": [
+        350,
+        450
+      ]
+    },
+    "near_perfect": {
+      "count": 102,
+      "percentage": 0.20400000000000001,
+      "bounds": [
+        450,
+        475
+      ]
+    },
+    "perfect": {
+      "count": 769,
+      "percentage": 1.538,
+      "bounds": [
+        475,
+        Infinity
+      ]
+    }
+  }
+}

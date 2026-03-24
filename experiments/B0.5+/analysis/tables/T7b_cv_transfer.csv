@@ -1,0 +1,4 @@
+stratum,transfer_pct,noise_pct,n_networks
+Low-mid,91.8,8.2,704
+High-mid,83.2,16.8,254
+Near-perfect,74.2,25.8,100

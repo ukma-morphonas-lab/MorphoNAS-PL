@@ -1,0 +1,276 @@
+{
+  "experiment": "B0.6",
+  "variant": "gravity_2x",
+  "switch_step": 200,
+  "n_networks": 2362,
+  "disruption": {
+    "low_mid": {
+      "n_networks": 1235,
+      "phase1_mean": 178.71,
+      "phase2_mean": 35.98,
+      "phase1_pct": 89.8,
+      "phase2_pct": 12.0,
+      "survival_rate": 95.0,
+      "phase2_std": 35.9
+    },
+    "high_mid": {
+      "n_networks": 256,
+      "phase1_mean": 186.25,
+      "phase2_mean": 130.41,
+      "phase1_pct": 93.6,
+      "phase2_pct": 43.3,
+      "survival_rate": 94.9,
+      "phase2_std": 64.18
+    },
+    "near_perfect": {
+      "n_networks": 102,
+      "phase1_mean": 186.76,
+      "phase2_mean": 181.44,
+      "phase1_pct": 93.8,
+      "phase2_pct": 60.3,
+      "survival_rate": 93.1,
+      "phase2_std": 75.98
+    },
+    "perfect": {
+      "n_networks": 769,
+      "phase1_mean": 186.3,
+      "phase2_mean": 244.74,
+      "phase1_pct": 93.6,
+      "phase2_pct": 81.3,
+      "survival_rate": 93.1,
+      "phase2_std": 95.78
+    }
+  },
+  "best_eta": {
+    "low_mid": {
+      "d=0.0": {
+        "best_eta": -0.1,
+        "delta_phase2": 12.65,
+        "delta_total": 7.89,
+        "dw": 1.2021955698750388e-05,
+        "n_per_eta": 1235
+      },
+      "d=0.01": {
+        "best_eta": -0.2,
+        "delta_phase2": 24.0,
+        "delta_total": 18.92,
+        "dw": 3.703604035393717e-05,
+        "n_per_eta": 1235
+      }
+    },
+    "high_mid": {
+      "d=0.0": {
+        "best_eta": -0.05,
+        "delta_phase2": 30.01,
+        "delta_total": 17.54,
+        "dw": 1.682816113093047e-05,
+        "n_per_eta": 256
+      },
+      "d=0.01": {
+        "best_eta": -0.2,
+        "delta_phase2": 51.48,
+        "delta_total": 34.44,
+        "dw": 4.0275272910648415e-05,
+        "n_per_eta": 256
+      }
+    },
+    "near_perfect": {
+      "d=0.0": {
+        "best_eta": -0.01,
+        "delta_phase2": 5.96,
+        "delta_total": 3.46,
+        "dw": 1.1321594445351789e-05,
+        "n_per_eta": 102
+      },
+      "d=0.01": {
+        "best_eta": -0.2,
+        "delta_phase2": 9.56,
+        "delta_total": -6.2,
+        "dw": 2.7622115088834778e-05,
+        "n_per_eta": 102
+      }
+    },
+    "perfect": {
+      "d=0.0": {
+        "best_eta": 0.0,
+        "delta_phase2": 0.0,
+        "delta_total": 0.0,
+        "dw": 0.0,
+        "n_per_eta": 769
+      },
+      "d=0.01": {
+        "best_eta": -0.01,
+        "delta_phase2": 0.39,
+        "delta_total": -0.65,
+        "dw": 4.478306410826805e-06,
+        "n_per_eta": 769
+      }
+    }
+  },
+  "adaptation_premium": {
+    "low_mid": {
+      "n_matched": 1235,
+      "static_oracle_mean": 73.44,
+      "nonstat_oracle_mean": 44.4,
+      "premium_mean": -29.04,
+      "premium_median": 0.0,
+      "premium_std": 53.88,
+      "pct_premium_positive": 7.5,
+      "ttest_t": -18.936,
+      "ttest_p": 0.0,
+      "wilcoxon_p": 0.0
+    },
+    "high_mid": {
+      "n_matched": 256,
+      "static_oracle_mean": 86.33,
+      "nonstat_oracle_mean": 95.09,
+      "premium_mean": 8.76,
+      "premium_median": 10.35,
+      "premium_std": 56.39,
+      "pct_premium_positive": 64.8,
+      "ttest_t": 2.482,
+      "ttest_p": 0.0137,
+      "wilcoxon_p": 0.0002
+    },
+    "near_perfect": {
+      "n_matched": 102,
+      "static_oracle_mean": 35.75,
+      "nonstat_oracle_mean": 54.44,
+      "premium_mean": 18.68,
+      "premium_median": 8.33,
+      "premium_std": 45.83,
+      "pct_premium_positive": 62.7,
+      "ttest_t": 4.097,
+      "ttest_p": 0.0001,
+      "wilcoxon_p": 0.0
+    },
+    "perfect": {
+      "n_matched": 769,
+      "static_oracle_mean": 13.84,
+      "nonstat_oracle_mean": 22.38,
+      "premium_mean": 8.55,
+      "premium_median": 0.0,
+      "premium_std": 43.81,
+      "pct_premium_positive": 30.9,
+      "ttest_t": 5.405,
+      "ttest_p": 0.0,
+      "wilcoxon_p": 0.0
+    }
+  },
+  "plasticity_activity": {
+    "low_mid": {
+      "n": 12350,
+      "phase1_dw_mean": 0.023485635511122524,
+      "phase2_dw_mean": 0.05741561281065776,
+      "phase1_pct_active": 100.0,
+      "phase2_pct_active": 93.1
+    },
+    "high_mid": {
+      "n": 2560,
+      "phase1_dw_mean": 0.004680088295811675,
+      "phase2_dw_mean": 0.02231343854217427,
+      "phase1_pct_active": 100.0,
+      "phase2_pct_active": 91.2
+    },
+    "near_perfect": {
+      "n": 1020,
+      "phase1_dw_mean": 0.005125768422238433,
+      "phase2_dw_mean": 0.023419674201729693,
+      "phase1_pct_active": 100.0,
+      "phase2_pct_active": 90.9
+    },
+    "perfect": {
+      "n": 7690,
+      "phase1_dw_mean": 0.0028973142239423905,
+      "phase2_dw_mean": 0.013779264967466115,
+      "phase1_pct_active": 100.0,
+      "phase2_pct_active": 90.0
+    }
+  },
+  "per_network": {
+    "overall_helped": 1196,
+    "overall_total": 2362,
+    "per_stratum": {
+      "low_mid": {
+        "n": 1235,
+        "helped": 600,
+        "pct_helped": 48.6,
+        "mean_delta": 35.0,
+        "median_delta": 0.0
+      },
+      "high_mid": {
+        "n": 256,
+        "helped": 230,
+        "pct_helped": 89.8,
+        "mean_delta": 84.86,
+        "median_delta": 89.62
+      },
+      "near_perfect": {
+        "n": 102,
+        "helped": 85,
+        "pct_helped": 83.3,
+        "mean_delta": 47.15,
+        "median_delta": 37.08
+      },
+      "perfect": {
+        "n": 769,
+        "helped": 281,
+        "pct_helped": 36.5,
+        "mean_delta": 18.28,
+        "median_delta": 0.0
+      }
+    }
+  },
+  "dw_vs_improvement": {
+    "low_mid": {
+      "n": 1235,
+      "spearman_rho": 0.056,
+      "p_value": 0.0484
+    },
+    "high_mid": {
+      "n": 256,
+      "spearman_rho": 0.134,
+      "p_value": 0.0319
+    },
+    "near_perfect": {
+      "n": 102,
+      "spearman_rho": 0.149,
+      "p_value": 0.1346
+    },
+    "perfect": {
+      "n": 769,
+      "spearman_rho": 0.487,
+      "p_value": 0.0
+    }
+  },
+  "phase1_cost": {
+    "low_mid": {
+      "best_eta": -0.2,
+      "phase1_cost": -5.08,
+      "phase2_gain": 24.0,
+      "net_total": 18.92,
+      "n_per_eta": 1235
+    },
+    "high_mid": {
+      "best_eta": -0.2,
+      "phase1_cost": -17.03,
+      "phase2_gain": 51.48,
+      "net_total": 34.44,
+      "n_per_eta": 256
+    },
+    "near_perfect": {
+      "best_eta": -0.01,
+      "phase1_cost": -1.74,
+      "phase2_gain": 7.53,
+      "net_total": 5.78,
+      "n_per_eta": 102
+    },
+    "perfect": {
+      "best_eta": 0.0,
+      "phase1_cost": 0.0,
+      "phase2_gain": 0.0,
+      "net_total": 0.0,
+      "n_per_eta": 769
+    }
+  }
+}
