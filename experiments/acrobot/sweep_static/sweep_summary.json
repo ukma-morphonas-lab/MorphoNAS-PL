@@ -1,0 +1,52 @@
+{
+  "pool_dir": "experiments/acrobot/pool",
+  "n_networks": 513,
+  "n_grid_points": 22,
+  "total_evaluations": 11286,
+  "total_rows": 11286,
+  "improved_count": 1201,
+  "improvement_rate": 0.10641502746765905,
+  "mean_delta_reward": -144.94096668438775,
+  "elapsed_seconds": 9538.9,
+  "eta_values": [
+    -0.2,
+    -0.1,
+    -0.05,
+    -0.03,
+    -0.01,
+    0.0,
+    0.01,
+    0.03,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "decay_values": [
+    0.0,
+    0.01
+  ],
+  "stratum_high_mid": {
+    "n_evaluations": 1628,
+    "n_networks": 74,
+    "improvement_rate": 0.09336609336609336,
+    "mean_delta_reward": -125.26649262899264
+  },
+  "stratum_low_mid": {
+    "n_evaluations": 1562,
+    "n_networks": 71,
+    "improvement_rate": 0.2112676056338028,
+    "mean_delta_reward": -49.663540332906535
+  },
+  "stratum_near_perfect": {
+    "n_evaluations": 6182,
+    "n_networks": 281,
+    "improvement_rate": 0.07764477515367195,
+    "mean_delta_reward": -172.34498544160465
+  },
+  "stratum_perfect": {
+    "n_evaluations": 1914,
+    "n_networks": 87,
+    "improvement_rate": 0.12486938349007315,
+    "mean_delta_reward": -150.91888714733543
+  }
+}

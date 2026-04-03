@@ -1,0 +1,5 @@
+Stratum,N,Oracle mean delta_r,Oracle median,% improved
+"Low-mid [200, 350)",17,+102.0,+116.6,88.2%
+"High-mid [350, 450)",18,+61.6,+66.7,83.3%
+"Near-perfect [450, 475)",4,+26.5,+27.4,100.0%
+Perfect [≥475],26,+1.8,+0.0,19.2%

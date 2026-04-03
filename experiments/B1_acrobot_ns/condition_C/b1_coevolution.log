@@ -1,0 +1,29 @@
+04-02 21:55:28 [DEBUG] MainProcess - root: Logging system initialized. Console: INFO, File: experiments/B1_acrobot_ns/condition_C/b1_coevolution.log
+04-02 21:55:29 [INFO] MainProcess - __main__: B1 Co-Evolution | Condition C | Env: Acrobot-v1 | Runs: [29] | Workers: 10
+04-02 21:55:29 [INFO] MainProcess - __main__: GA params: pop=50 gen=200 grid=20 morphogens=3 rollouts=20
+04-02 21:55:29 [INFO] MainProcess - __main__: Eta range: (-0.1, 0.1), mutation std: 0.005
+04-02 21:55:29 [INFO] MainProcess - __main__: === Run 029 (seed=1029) ===
+04-02 21:55:49 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen   0 | best=0.0000 avg=0.0000 viable=0/50 eta=-0.0221 decay=0.0071 eval=19.6s
+04-02 21:59:25 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  10 | best=0.7391 avg=0.6652 viable=47/50 eta=-0.0234 decay=0.0942 eval=10.1s
+04-02 22:01:03 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  20 | best=0.7629 avg=0.6380 viable=43/50 eta=-0.0218 decay=0.0873 eval=16.4s
+04-02 22:02:44 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  30 | best=0.7629 avg=0.6777 viable=45/50 eta=-0.0218 decay=0.0897 eval=11.2s
+04-02 22:04:48 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  40 | best=0.7629 avg=0.7185 viable=48/50 eta=-0.0218 decay=0.0873 eval=9.3s
+04-02 22:06:51 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  50 | best=0.7629 avg=0.6409 viable=44/50 eta=-0.0218 decay=0.0897 eval=14.5s
+04-02 22:08:40 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  60 | best=0.7629 avg=0.7231 viable=48/50 eta=-0.0218 decay=0.0873 eval=8.8s
+04-02 22:10:21 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  70 | best=0.7629 avg=0.6252 viable=42/50 eta=-0.0218 decay=0.0897 eval=11.7s
+04-02 22:12:12 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  80 | best=0.7629 avg=0.6881 viable=46/50 eta=-0.0218 decay=0.0897 eval=10.1s
+04-02 22:14:05 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  90 | best=0.7629 avg=0.6625 viable=44/50 eta=-0.0218 decay=0.0897 eval=10.3s
+04-02 22:15:32 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen 100 | best=0.7629 avg=0.6890 viable=47/50 eta=-0.0218 decay=0.0897 eval=7.1s
+04-02 22:17:01 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen 110 | best=0.7629 avg=0.6697 viable=45/50 eta=-0.0218 decay=0.0897 eval=9.7s
+04-02 22:18:41 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen 120 | best=0.7629 avg=0.6833 viable=45/50 eta=-0.0218 decay=0.0897 eval=7.6s
+04-02 22:21:01 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen 130 | best=0.7712 avg=0.6764 viable=45/50 eta=-0.0098 decay=0.0849 eval=15.0s
+04-02 22:22:56 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen 140 | best=0.7712 avg=0.6774 viable=45/50 eta=-0.0098 decay=0.0849 eval=10.3s
+04-02 22:24:29 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen 150 | best=0.7712 avg=0.6560 viable=43/50 eta=-0.0098 decay=0.0849 eval=10.3s
+04-02 22:26:19 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen 160 | best=0.7712 avg=0.6458 viable=42/50 eta=-0.0098 decay=0.0849 eval=10.8s
+04-02 22:27:55 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen 170 | best=0.7712 avg=0.7091 viable=46/50 eta=-0.0098 decay=0.0849 eval=9.0s
+04-02 22:29:40 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen 180 | best=0.7712 avg=0.6442 viable=43/50 eta=-0.0098 decay=0.0839 eval=10.8s
+04-02 22:31:15 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen 190 | best=0.7712 avg=0.7334 viable=48/50 eta=-0.0098 decay=0.0849 eval=8.5s
+04-02 22:32:58 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen 200 | best=0.7712 avg=0.7346 viable=48/50 eta=-0.0098 decay=0.0849 eval=10.2s
+04-02 22:32:58 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: GA complete: best_fitness=0.7712 reward=-114.4 eta=-0.0098 decay=0.0849
+04-02 22:32:58 [INFO] MainProcess - __main__: Run 029 done (201 generations). Total: 1 completed, 0 skipped, elapsed: 0.6h
+04-02 22:32:58 [INFO] MainProcess - __main__: B1 complete: 1 runs finished, 0 skipped in 0.6h

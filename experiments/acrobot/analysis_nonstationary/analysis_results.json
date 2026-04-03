@@ -1,0 +1,149 @@
+{
+  "phase2_benefit": {
+    "low_mid": {
+      "n": 71,
+      "anti_p2_rate": 15.774647887323944,
+      "hebb_p2_rate": 9.71830985915493,
+      "anti_p2_delta": -60.456338028169014,
+      "hebb_p2_delta": -62.2474647887324
+    },
+    "high_mid": {
+      "n": 74,
+      "anti_p2_rate": 9.72972972972973,
+      "hebb_p2_rate": 11.756756756756758,
+      "anti_p2_delta": -89.58445945945945,
+      "hebb_p2_delta": -91.8012162162162
+    },
+    "near_perfect": {
+      "n": 281,
+      "anti_p2_rate": 5.765124555160142,
+      "hebb_p2_rate": 8.505338078291814,
+      "anti_p2_delta": -177.99377224199287,
+      "hebb_p2_delta": -168.26864768683274
+    },
+    "perfect": {
+      "n": 87,
+      "anti_p2_rate": 3.5632183908045976,
+      "hebb_p2_rate": 4.022988505747127,
+      "anti_p2_delta": -219.28114942528734,
+      "hebb_p2_delta": -207.51040229885055
+    }
+  },
+  "plasticity_engagement": {
+    "overall": {
+      "p1_dw": 0.22644204086246214,
+      "p2_dw": 0.8061082351723396,
+      "ratio_of_means": 3.559887696216088,
+      "median_ratio": 2.618487559443244,
+      "mean_ratio_WARNING_inflated": 1035.2618088766862
+    },
+    "per_stratum": {
+      "low_mid": {
+        "p1_dw": 0.26179196479238886,
+        "p2_dw": 0.8052141801205717,
+        "ratio_of_means": 3.075778818342028,
+        "median_ratio": 1.976514434010908
+      },
+      "high_mid": {
+        "p1_dw": 0.208808747629077,
+        "p2_dw": 0.7865024110498611,
+        "ratio_of_means": 3.7666161977418,
+        "median_ratio": 3.3367093707911284
+      },
+      "near_perfect": {
+        "p1_dw": 0.213274557948614,
+        "p2_dw": 0.8069342439416438,
+        "ratio_of_means": 3.783546671966682,
+        "median_ratio": 2.497280772109054
+      },
+      "perfect": {
+        "p1_dw": 0.25512114200081887,
+        "p2_dw": 0.820846171144346,
+        "ratio_of_means": 3.2174760770775763,
+        "median_ratio": 2.9796495488160963
+      }
+    }
+  },
+  "oracle": {
+    "rate": 57.1150097465887,
+    "anti_preferred": 133,
+    "hebb_preferred": 160,
+    "per_stratum": {
+      "low_mid": {
+        "rate": 59.154929577464785,
+        "mean_delta": 48.94295774647887
+      },
+      "high_mid": {
+        "rate": 64.86486486486487,
+        "mean_delta": 27.87702702702703
+      },
+      "near_perfect": {
+        "rate": 61.20996441281139,
+        "mean_delta": 22.564946619217082
+      },
+      "perfect": {
+        "rate": 35.63218390804598,
+        "mean_delta": 5.571264367816093
+      }
+    }
+  },
+  "adaptation_premium": {
+    "static_rate": 65.49707602339181,
+    "ns_rate": 57.1150097465887,
+    "premium": -8.382066276803116,
+    "per_stratum": {
+      "low_mid": {
+        "static_rate": 88.73239436619718,
+        "ns_rate": 59.154929577464785,
+        "premium": -29.5774647887324
+      },
+      "high_mid": {
+        "static_rate": 63.51351351351351,
+        "ns_rate": 64.86486486486487,
+        "premium": 1.3513513513513615
+      },
+      "near_perfect": {
+        "static_rate": 54.44839857651246,
+        "ns_rate": 61.20996441281139,
+        "premium": 6.761565836298928
+      },
+      "perfect": {
+        "static_rate": 83.9080459770115,
+        "ns_rate": 35.63218390804598,
+        "premium": -48.275862068965516
+      }
+    }
+  },
+  "summary_table": {
+    "rows": [
+      {
+        "stratum": "low_mid",
+        "n": 71,
+        "ns_rate": 59.154929577464785,
+        "static_rate": 88.73239436619718,
+        "premium": -29.5774647887324
+      },
+      {
+        "stratum": "high_mid",
+        "n": 74,
+        "ns_rate": 64.86486486486487,
+        "static_rate": 63.51351351351351,
+        "premium": 1.3513513513513615
+      },
+      {
+        "stratum": "near_perfect",
+        "n": 281,
+        "ns_rate": 61.20996441281139,
+        "static_rate": 54.44839857651246,
+        "premium": 6.761565836298928
+      },
+      {
+        "stratum": "perfect",
+        "n": 87,
+        "ns_rate": 35.63218390804598,
+        "static_rate": 83.9080459770115,
+        "premium": -48.275862068965516
+      }
+    ]
+  }
+}

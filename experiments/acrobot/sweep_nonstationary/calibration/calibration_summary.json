@@ -1,0 +1,11 @@
+[
+  {"variant": "heavy_link2_2x", "params": {"LINK_MASS_2": 2.0}, "switch_step": 30, "mean_total_reward": -295.3, "pct_reached_phase2": 100.0, "mean_phase2_reward": -266.3},
+  {"variant": "heavy_link2_3x", "params": {"LINK_MASS_2": 3.0}, "switch_step": 30, "mean_total_reward": -435.4, "pct_reached_phase2": 100.0, "mean_phase2_reward": -406.4},
+  {"variant": "heavy_link2_5x", "params": {"LINK_MASS_2": 5.0}, "switch_step": 30, "mean_total_reward": -497.6, "pct_reached_phase2": 100.0, "mean_phase2_reward": -468.6},
+  {"variant": "heavy_link2_2x", "params": {"LINK_MASS_2": 2.0}, "switch_step": 50, "mean_total_reward": -300.4, "pct_reached_phase2": 100.0, "mean_phase2_reward": -251.4},
+  {"variant": "heavy_link2_3x", "params": {"LINK_MASS_2": 3.0}, "switch_step": 50, "mean_total_reward": -434.9, "pct_reached_phase2": 100.0, "mean_phase2_reward": -385.9},
+  {"variant": "heavy_link2_5x", "params": {"LINK_MASS_2": 5.0}, "switch_step": 50, "mean_total_reward": -497.8, "pct_reached_phase2": 100.0, "mean_phase2_reward": -448.8},
+  {"variant": "heavy_link2_2x", "params": {"LINK_MASS_2": 2.0}, "switch_step": 75, "mean_total_reward": -288.9, "pct_reached_phase2": 100.0, "mean_phase2_reward": -215.0},
+  {"variant": "heavy_link2_3x", "params": {"LINK_MASS_2": 3.0}, "switch_step": 75, "mean_total_reward": -404.6, "pct_reached_phase2": 100.0, "mean_phase2_reward": -330.8},
+  {"variant": "heavy_link2_5x", "params": {"LINK_MASS_2": 5.0}, "switch_step": 75, "mean_total_reward": -457.1, "pct_reached_phase2": 100.0, "mean_phase2_reward": -383.3}
+]

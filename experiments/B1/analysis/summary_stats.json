@@ -1,0 +1,178 @@
+{
+  "conditions": {
+    "A": {
+      "n_runs": 30,
+      "n_final_bests": 30,
+      "fitness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "reward": {
+        "mean": 500.0,
+        "median": 500.0,
+        "std": 0.0,
+        "min": 500.0,
+        "max": 500.0
+      },
+      "convergence_gen_90pct": 1,
+      "stratum_counts": {
+        "weak": 0,
+        "low_mid": 0,
+        "high_mid": 0,
+        "near_perfect": 0,
+        "perfect": 30
+      },
+      "structure": {
+        "n": 30,
+        "neurons_median": 100.0,
+        "neurons_mean": 99.63333333333334,
+        "neurons_std": 6.585252884708039,
+        "connections_median": 328.0,
+        "connections_mean": 335.7,
+        "connections_std": 89.57907121643984
+      }
+    },
+    "B": {
+      "n_runs": 30,
+      "n_final_bests": 30,
+      "fitness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "reward": {
+        "mean": 500.0,
+        "median": 500.0,
+        "std": 0.0,
+        "min": 500.0,
+        "max": 500.0
+      },
+      "eta": {
+        "mean": -0.010000000000000002,
+        "median": -0.01,
+        "std": 1.734723475976807e-18
+      },
+      "decay": {
+        "mean": 0.010000000000000002,
+        "median": 0.01,
+        "std": 1.734723475976807e-18
+      },
+      "convergence_gen_90pct": 1,
+      "stratum_counts": {
+        "weak": 0,
+        "low_mid": 0,
+        "high_mid": 0,
+        "near_perfect": 0,
+        "perfect": 30
+      },
+      "structure": {
+        "n": 30,
+        "neurons_median": 100.0,
+        "neurons_mean": 100.96666666666667,
+        "neurons_std": 7.909839161168548,
+        "connections_median": 357.0,
+        "connections_mean": 380.1,
+        "connections_std": 111.89231430263654
+      }
+    },
+    "C": {
+      "n_runs": 30,
+      "n_final_bests": 30,
+      "fitness": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "reward": {
+        "mean": 500.0,
+        "median": 500.0,
+        "std": 0.0,
+        "min": 500.0,
+        "max": 500.0
+      },
+      "eta": {
+        "mean": -0.1108338902825896,
+        "median": -0.11728495418240992,
+        "std": 0.25136881090870783
+      },
+      "decay": {
+        "mean": 0.05935606806058271,
+        "median": 0.054439608478080825,
+        "std": 0.027913370966956983
+      },
+      "convergence_gen_90pct": 2,
+      "stratum_counts": {
+        "weak": 0,
+        "low_mid": 0,
+        "high_mid": 0,
+        "near_perfect": 0,
+        "perfect": 30
+      },
+      "structure": {
+        "n": 30,
+        "neurons_median": 100.0,
+        "neurons_mean": 100.33333333333333,
+        "neurons_std": 9.630968567883272,
+        "connections_median": 277.0,
+        "connections_mean": 289.1,
+        "connections_std": 102.73796766531835
+      }
+    }
+  },
+  "mann_whitney_tests": {
+    "A_vs_B": {
+      "U": 450.0,
+      "p_raw": 1.0,
+      "p_bonferroni": 1.0,
+      "effect_size_r": 0.0,
+      "n1": 30,
+      "n2": 30,
+      "median_1": 1.0,
+      "median_2": 1.0
+    },
+    "A_vs_C": {
+      "U": 450.0,
+      "p_raw": 1.0,
+      "p_bonferroni": 1.0,
+      "effect_size_r": 0.0,
+      "n1": 30,
+      "n2": 30,
+      "median_1": 1.0,
+      "median_2": 1.0
+    },
+    "B_vs_C": {
+      "U": 450.0,
+      "p_raw": 1.0,
+      "p_bonferroni": 1.0,
+      "effect_size_r": 0.0,
+      "n1": 30,
+      "n2": 30,
+      "median_1": 1.0,
+      "median_2": 1.0
+    }
+  },
+  "sign_test_anti_hebbian": {
+    "n_runs": 30,
+    "n_negative": 21,
+    "n_positive": 9,
+    "n_zero": 0,
+    "sign_test_p": 0.042773945257067694,
+    "anti_hebbian_fraction": 0.7,
+    "median_eta": -0.11728495418240992,
+    "mean_eta": -0.1108338902825896,
+    "std_eta": 0.25136881090870783
+  }
+}

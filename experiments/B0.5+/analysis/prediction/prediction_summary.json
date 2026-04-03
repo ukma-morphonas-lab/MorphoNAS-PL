@@ -1,0 +1,85 @@
+{
+  "n_cartpole_networks": 2362,
+  "n_features": 29,
+  "improvement_rate": 0.5224386113463166,
+  "feature_importance": {
+    "top_gini": {
+      "axon_connect_threshold": 0.052596486921592696,
+      "mean_degree": 0.05196145118001472,
+      "psr_2": 0.051406002015249225,
+      "nsr_1": 0.05137729191163554,
+      "cell_differentiation_threshold": 0.05072914780734712,
+      "num_connections": 0.050183027654258236,
+      "nsr_2": 0.050056499184133754,
+      "diffusion_rate": 0.04914197492792777,
+      "psr_1": 0.04908614857008088,
+      "self_connect_fraction": 0.04887605277483897,
+      "nsr_0": 0.04880443295258029,
+      "weight_adjustment_rate": 0.04876075983484744,
+      "psr_0": 0.04835291918891098,
+      "connectivity_density": 0.04812585600245174,
+      "division_threshold": 0.047353020648019266
+    },
+    "top_perm": {
+      "inhib_21": 0.01625740897544453,
+      "axon_connect_threshold": 0.0024555461473327765,
+      "diffusion_rate": 0.0015241320914479383,
+      "nsr_1": 0.001227773073666416,
+      "psr_2": 0.0011007620660457352,
+      "division_threshold": 0.001058425063505497,
+      "weight_adjustment_rate": 0.001058425063505486,
+      "cell_differentiation_threshold": 0.0006773920406435097,
+      "psr_1": 0.0005927180355630779,
+      "self_connect_fraction": 0.0005927180355630668,
+      "inhib_20": 0.00038103302286194294,
+      "num_connections": 0.0003386960203217382,
+      "mean_degree": 0.0002540220152413175,
+      "nsr_2": 0.0002540220152413175,
+      "weight_adjustment_target": 0.0002540220152413064
+    }
+  },
+  "roc": {
+    "Logistic Regression": {
+      "auc": 0.607435457544513
+    },
+    "Random Forest": {
+      "auc": 0.6311679569410439
+    }
+  },
+  "regression": {
+    "Ridge": {
+      "r2": 0.04506964465807284,
+      "rmse": 80.3688009978472
+    },
+    "Random Forest": {
+      "r2": 0.021128903802950072,
+      "rmse": 81.37001429210541
+    }
+  },
+  "eta_sign": {
+    "accuracy": 0.8030794165316045,
+    "n_anti_hebbian": 991,
+    "n_hebbian": 243,
+    "top_features": {
+      "axon_growth_threshold": 0.056356646184534245,
+      "weight_adjustment_rate": 0.054583687338061425,
+      "self_connect_fraction": 0.053490146472968965,
+      "diffusion_rate": 0.052536791183984084,
+      "nsr_0": 0.051607484523136515,
+      "psr_0": 0.051525548744564414,
+      "weight_adjustment_target": 0.051033000372531424,
+      "nsr_1": 0.05011417628748654,
+      "nsr_2": 0.04984018486572714,
+      "division_threshold": 0.04896508553127468
+    }
+  },
+  "cross_task_transfer": {
+    "transfer_auc": 0.4530030938929244,
+    "per_stratum_accuracy": {
+      "low_mid": 0.704225352112676,
+      "high_mid": 0.47297297297297297,
+      "near_perfect": 0.47686832740213525,
+      "perfect": 0.632183908045977
+    }
+  }
+}

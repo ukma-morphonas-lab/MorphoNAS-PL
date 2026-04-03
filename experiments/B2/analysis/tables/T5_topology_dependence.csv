@@ -1,0 +1,5 @@
+Stratum,N,Baseline mean,Headroom,Oracle mean delta_r,Norm improvement,% improved (oracle),Best fixed delta_r,% improved (fixed)
+"Low-mid [200, 350)",17,260.4,239.6,+102.0,0.426,88.2%,+79.2,76.5%
+"High-mid [350, 450)",18,394.0,106.0,+61.6,0.582,83.3%,+36.7,72.2%
+"Near-perfect [450, 475)",4,461.0,39.0,+26.5,0.680,100.0%,+22.9,100.0%
+Perfect [≥475],26,497.7,2.3,+1.8,0.766,19.2%,+0.0,0.0%

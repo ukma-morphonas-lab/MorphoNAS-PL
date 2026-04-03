@@ -1,0 +1,14 @@
+{
+  "condition": "A",
+  "run_seed": 1028,
+  "pop_size": 50,
+  "max_gen": 200,
+  "grid_size": 10,
+  "num_morphogens": 3,
+  "max_growth_steps": 200,
+  "selection_pressure": 0.2,
+  "mutation_rate": 0.3,
+  "num_elite": 2,
+  "num_rollouts": 20,
+  "max_workers": 14
+}

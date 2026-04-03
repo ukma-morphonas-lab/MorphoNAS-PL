@@ -1,0 +1,12 @@
+{
+  "variant": "heavy_pole",
+  "switch_times": [
+    100,
+    200,
+    300,
+    400
+  ],
+  "n_networks": 2362,
+  "n_evaluations": 56688,
+  "elapsed_seconds": 11701.7
+}

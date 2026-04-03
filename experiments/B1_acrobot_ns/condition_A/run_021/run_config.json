@@ -1,0 +1,38 @@
+{
+  "condition": "A",
+  "run_seed": 1021,
+  "env_config": {
+    "env_name": "Acrobot-v1",
+    "input_dim": 6,
+    "output_dim": 3,
+    "max_reward": 500.0,
+    "min_neurons": 9,
+    "default_grid_size": 20,
+    "fixed_eta": -0.001,
+    "fixed_decay": 0.05,
+    "eta_range": [
+      -0.1,
+      0.1
+    ],
+    "decay_range": [
+      0.0,
+      0.1
+    ],
+    "eta_mutation_std": 0.005,
+    "decay_mutation_std": 0.005,
+    "perturbation": {
+      "LINK_MASS_2": 2.0
+    },
+    "switch_step": 50
+  },
+  "pop_size": 50,
+  "max_gen": 200,
+  "grid_size": 20,
+  "num_morphogens": 3,
+  "max_growth_steps": 200,
+  "selection_pressure": 0.2,
+  "mutation_rate": 0.3,
+  "num_elite": 2,
+  "num_rollouts": 20,
+  "max_workers": 14
+}

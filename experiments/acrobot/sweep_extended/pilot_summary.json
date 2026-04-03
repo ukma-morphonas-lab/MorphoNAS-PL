@@ -1,0 +1,261 @@
+{
+  "grid_points_sampled": 30,
+  "conditions": {
+    "static": {
+      "n_evaluations": 15390,
+      "n_networks": 513,
+      "n_positive_grid_points": 4,
+      "n_total_grid_points": 30,
+      "top_5": [
+        {
+          "eta": -0.0007,
+          "decay": 0.1,
+          "mean_delta": 0.46,
+          "n": 513
+        },
+        {
+          "eta": -0.0005,
+          "decay": 0.1,
+          "mean_delta": 0.32,
+          "n": 513
+        },
+        {
+          "eta": 0.0001,
+          "decay": 0.05,
+          "mean_delta": 0.12,
+          "n": 513
+        },
+        {
+          "eta": 0.0001,
+          "decay": 0.1,
+          "mean_delta": 0.08,
+          "n": 513
+        },
+        {
+          "eta": 0.0,
+          "decay": 0.0,
+          "mean_delta": 0.0,
+          "n": 513
+        }
+      ],
+      "best_by_stratum": {
+        "low_mid": {
+          "eta": -0.01,
+          "decay": 0.005,
+          "mean_delta": 18.71
+        },
+        "high_mid": {
+          "eta": 0.0001,
+          "decay": 0.1,
+          "mean_delta": 0.3
+        },
+        "near_perfect": {
+          "eta": -0.0007,
+          "decay": 0.1,
+          "mean_delta": 0.59
+        },
+        "perfect": {
+          "eta": -0.0007,
+          "decay": 0.1,
+          "mean_delta": 1.2
+        }
+      },
+      "recommended_phase2": {
+        "eta_min": -0.0007,
+        "eta_max": 0.0001,
+        "lambda_min": 0.05,
+        "lambda_max": 0.1
+      }
+    },
+    "ns": {
+      "n_evaluations": 15390,
+      "n_networks": 513,
+      "n_positive_grid_points": 3,
+      "n_total_grid_points": 30,
+      "top_5": [
+        {
+          "eta": 0.0007,
+          "decay": 0.01,
+          "mean_delta": 0.4,
+          "n": 513
+        },
+        {
+          "eta": 5e-05,
+          "decay": 0.1,
+          "mean_delta": 0.33,
+          "n": 513
+        },
+        {
+          "eta": 0.0001,
+          "decay": 0.1,
+          "mean_delta": 0.16,
+          "n": 513
+        },
+        {
+          "eta": 0.0,
+          "decay": 0.0,
+          "mean_delta": 0.0,
+          "n": 513
+        },
+        {
+          "eta": -0.0005,
+          "decay": 0.1,
+          "mean_delta": -0.06,
+          "n": 513
+        }
+      ],
+      "best_by_stratum": {
+        "low_mid": {
+          "eta": -0.002,
+          "decay": 0.1,
+          "mean_delta": 1.61
+        },
+        "high_mid": {
+          "eta": 0.001,
+          "decay": 0.005,
+          "mean_delta": 11.0
+        },
+        "near_perfect": {
+          "eta": -0.0005,
+          "decay": 0.1,
+          "mean_delta": 0.61
+        },
+        "perfect": {
+          "eta": 0.0001,
+          "decay": 0.1,
+          "mean_delta": 0.05
+        }
+      },
+      "recommended_phase2": {
+        "eta_min": 5e-05,
+        "eta_max": 0.0007,
+        "lambda_min": 0.01,
+        "lambda_max": 0.1
+      }
+    }
+  },
+  "phase": "pilot",
+  "n_networks": 513,
+  "grid_points": [
+    {
+      "eta": 0.0,
+      "decay": 0.0
+    },
+    {
+      "eta": 0.0007,
+      "decay": 0.01
+    },
+    {
+      "eta": 0.0001,
+      "decay": 0.1
+    },
+    {
+      "eta": -0.0007,
+      "decay": 0.05
+    },
+    {
+      "eta": 5e-05,
+      "decay": 0.1
+    },
+    {
+      "eta": -5e-05,
+      "decay": 0
+    },
+    {
+      "eta": 0.0007,
+      "decay": 0.001
+    },
+    {
+      "eta": 0.0001,
+      "decay": 0.05
+    },
+    {
+      "eta": -0.0007,
+      "decay": 0.1
+    },
+    {
+      "eta": -0.0005,
+      "decay": 0.1
+    },
+    {
+      "eta": 0.0005,
+      "decay": 0.0001
+    },
+    {
+      "eta": 0.003,
+      "decay": 0.005
+    },
+    {
+      "eta": 0.007,
+      "decay": 0.02
+    },
+    {
+      "eta": -0.002,
+      "decay": 0.005
+    },
+    {
+      "eta": 0.002,
+      "decay": 0.0001
+    },
+    {
+      "eta": 0.005,
+      "decay": 0
+    },
+    {
+      "eta": -0.005,
+      "decay": 0.02
+    },
+    {
+      "eta": -0.002,
+      "decay": 0.1
+    },
+    {
+      "eta": -0.001,
+      "decay": 0.01
+    },
+    {
+      "eta": 0.001,
+      "decay": 0.005
+    },
+    {
+      "eta": 0.005,
+      "decay": 0.02
+    },
+    {
+      "eta": -0.05,
+      "decay": 0.01
+    },
+    {
+      "eta": -0.1,
+      "decay": 0.02
+    },
+    {
+      "eta": 0.03,
+      "decay": 0
+    },
+    {
+      "eta": 0.01,
+      "decay": 0.05
+    },
+    {
+      "eta": -0.03,
+      "decay": 0.005
+    },
+    {
+      "eta": 0.02,
+      "decay": 0.02
+    },
+    {
+      "eta": 0.1,
+      "decay": 0.01
+    },
+    {
+      "eta": -0.02,
+      "decay": 0.005
+    },
+    {
+      "eta": -0.01,
+      "decay": 0.005
+    }
+  ]
+}

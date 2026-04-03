@@ -1,0 +1,134 @@
+{
+  "hypothesis_a": {
+    "overall": {
+      "n_anti": 991,
+      "n_hebb": 243,
+      "mean_wt_anti": 0.49759789756002376,
+      "mean_wt_hebb": 0.5024669063162086,
+      "mannwhitney_U": 117512.0,
+      "mannwhitney_p": 0.5610244049208136,
+      "pointbiserial_r": -0.016572794329960144,
+      "pointbiserial_p": 0.5608195458633436
+    },
+    "per_stratum": {
+      "low_mid": {
+        "n_anti": 560,
+        "n_hebb": 144,
+        "mean_wt_anti": 0.4950028460770243,
+        "mean_wt_hebb": 0.513613901348968,
+        "cohens_d": -0.157867860290283,
+        "mannwhitney_p": 0.09288518341067693,
+        "pointbiserial_r": -0.06364039153197422
+      },
+      "high_mid": {
+        "n_anti": 215,
+        "n_hebb": 39,
+        "mean_wt_anti": 0.49952961586850664,
+        "mean_wt_hebb": 0.47175770688718555,
+        "cohens_d": 0.24783703323373094,
+        "mannwhitney_p": 0.16219636209574018,
+        "pointbiserial_r": 0.08934296199209929
+      },
+      "near_perfect": {
+        "n_anti": 87,
+        "n_hebb": 13,
+        "mean_wt_anti": 0.501030943226377,
+        "mean_wt_hebb": 0.4838116816297892,
+        "cohens_d": 0.14503631744641748,
+        "mannwhitney_p": 0.7506885846731934,
+        "pointbiserial_r": 0.04921171558600068
+      },
+      "perfect": {
+        "n_anti": 129,
+        "n_hebb": 47,
+        "mean_wt_anti": 0.5033283969490402,
+        "mean_wt_hebb": 0.4989564683148895,
+        "cohens_d": 0.03670910604058235,
+        "mannwhitney_p": 0.893593834929622,
+        "pointbiserial_r": 0.016331599044207987
+      }
+    }
+  },
+  "hypothesis_b": {
+    "overall": {
+      "n_anti": 871,
+      "n_hebb": 223,
+      "mean_dw_anti": 0.0005444195014742101,
+      "mean_dw_hebb": 0.0014164991890335305,
+      "mannwhitney_U": 53775.0,
+      "mannwhitney_p": 7.431778958662456e-25,
+      "pointbiserial_r": -0.16785108470211318,
+      "pointbiserial_p": 2.3355179960657895e-08
+    },
+    "per_stratum": {
+      "low_mid": {
+        "n_anti": 494,
+        "n_hebb": 126,
+        "mean_dw_anti": 0.0005658948911737782,
+        "mean_dw_hebb": 0.001197339580714926,
+        "cohens_d": -0.3362669704244198,
+        "mannwhitney_p": 8.030621888359833e-12
+      },
+      "high_mid": {
+        "n_anti": 201,
+        "n_hebb": 36,
+        "mean_dw_anti": 0.0004149683698752289,
+        "mean_dw_hebb": 0.0022331744759281737,
+        "cohens_d": -0.86516619719157,
+        "mannwhitney_p": 3.3344262491356993e-09
+      },
+      "near_perfect": {
+        "n_anti": 75,
+        "n_hebb": 11,
+        "mean_dw_anti": 0.0007216921745248439,
+        "mean_dw_hebb": 0.0031620454744109693,
+        "cohens_d": -0.8091976390328772,
+        "mannwhitney_p": 0.057336854834830406
+      },
+      "perfect": {
+        "n_anti": 101,
+        "n_hebb": 50,
+        "mean_dw_anti": 0.0005653639020782798,
+        "mean_dw_hebb": 0.0009967550126492345,
+        "cohens_d": -0.2153098281053067,
+        "mannwhitney_p": 1.214521022638136e-05
+      }
+    },
+    "dose_response": {
+      "quintiles": [
+        {
+          "dw_quintile": 0,
+          "mean_dw": 7.348257743475942e-06,
+          "anti_hebb_rate": 0.9269406392694064,
+          "n": 219
+        },
+        {
+          "dw_quintile": 1,
+          "mean_dw": 1.2252456842741288e-05,
+          "anti_hebb_rate": 0.954337899543379,
+          "n": 219
+        },
+        {
+          "dw_quintile": 2,
+          "mean_dw": 2.1437195468088094e-05,
+          "anti_hebb_rate": 0.8348623853211009,
+          "n": 218
+        },
+        {
+          "dw_quintile": 3,
+          "mean_dw": 0.00010349462601484564,
+          "anti_hebb_rate": 0.6210045662100456,
+          "n": 219
+        },
+        {
+          "dw_quintile": 4,
+          "mean_dw": 0.003463185007921636,
+          "anti_hebb_rate": 0.6438356164383562,
+          "n": 219
+        }
+      ],
+      "spearman_rho": -0.7999999999999999,
+      "spearman_p": 0.10408803866182788
+    }
+  }
+}

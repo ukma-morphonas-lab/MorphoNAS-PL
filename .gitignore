@@ -9,3 +9,4 @@ build/
 .ruff_cache/
 .pytest_cache/
 *.ipynb_checkpoints/
+experiments/B2/pool/random_rnn_pool.jsonl

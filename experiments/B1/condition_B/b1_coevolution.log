@@ -1,0 +1,16 @@
+04-02 13:25:30 [DEBUG] MainProcess - root: Logging system initialized. Console: INFO, File: experiments/B1/condition_B/b1_coevolution.log
+04-02 13:25:31 [INFO] MainProcess - __main__: B1 Co-Evolution | Condition B | Runs: [0, 1, 2] | Workers: 10
+04-02 13:25:31 [INFO] MainProcess - __main__: GA params: pop=50 gen=200 grid=10 morphogens=3 rollouts=20
+04-02 13:25:31 [INFO] MainProcess - __main__: === Run 000 (seed=1000) ===
+04-02 13:25:36 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen   0 | best=0.4164 avg=0.0254 viable=23/50 eta=-0.0100 decay=0.0100 eval=4.7s
+04-02 13:26:29 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  10 | best=1.0000 avg=0.9125 viable=50/50 eta=-0.0100 decay=0.0100 eval=12.8s
+04-02 13:27:51 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  20 | best=1.0000 avg=0.8423 viable=48/50 eta=-0.0100 decay=0.0100 eval=4.5s
+04-02 13:29:00 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  30 | best=1.0000 avg=0.9222 viable=50/50 eta=-0.0100 decay=0.0100 eval=8.9s
+04-02 13:30:30 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  40 | best=1.0000 avg=0.8833 viable=49/50 eta=-0.0100 decay=0.0100 eval=10.3s
+04-02 13:54:09 [DEBUG] MainProcess - root: Logging system initialized. Console: INFO, File: experiments/B1/condition_B/b1_coevolution.log
+04-02 13:54:10 [INFO] MainProcess - __main__: B1 Co-Evolution | Condition B | Runs: [0, 1, 2] | Workers: 10
+04-02 13:54:10 [INFO] MainProcess - __main__: GA params: pop=50 gen=200 grid=10 morphogens=3 rollouts=20
+04-02 13:54:10 [INFO] MainProcess - __main__: === Run 000 (seed=1000) ===
+04-02 13:54:10 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Resuming from generation 48 (50 individuals)
+04-02 13:54:32 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  50 | best=1.0000 avg=0.7396 viable=41/50 eta=-0.0100 decay=0.0100 eval=11.2s
+04-02 13:55:48 [INFO] MainProcess - MorphoNAS_PL.experimentB1_coevolution: Gen  60 | best=1.0000 avg=0.9426 viable=50/50 eta=-0.0100 decay=0.0100 eval=10.3s

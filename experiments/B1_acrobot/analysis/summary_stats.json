@@ -1,0 +1,178 @@
+{
+  "conditions": {
+    "A": {
+      "n_runs": 30,
+      "n_final_bests": 30,
+      "fitness": {
+        "mean": 0.8437033333333334,
+        "median": 0.843,
+        "std": 0.007691531418095853,
+        "min": 0.8253,
+        "max": 0.8603000000000001,
+        "q25": 0.837825,
+        "q75": 0.850625
+      },
+      "reward": {
+        "mean": -78.14833333333334,
+        "median": -78.50000000000001,
+        "std": 3.845765709047926,
+        "min": -87.34999999999998,
+        "max": -69.84999999999997
+      },
+      "convergence_gen_90pct": 1,
+      "stratum_counts": {
+        "weak": 0,
+        "low_mid": 0,
+        "high_mid": 30,
+        "near_perfect": 0,
+        "perfect": 0
+      },
+      "structure": {
+        "n": 30,
+        "neurons_median": 400.0,
+        "neurons_mean": 402.0,
+        "neurons_std": 13.012814197295423,
+        "connections_median": 1053.0,
+        "connections_mean": 1174.7333333333333,
+        "connections_std": 286.3793443823924
+      }
+    },
+    "B": {
+      "n_runs": 30,
+      "n_final_bests": 30,
+      "fitness": {
+        "mean": 0.8433499999999999,
+        "median": 0.8442,
+        "std": 0.0067475798130391396,
+        "min": 0.8253,
+        "max": 0.8577,
+        "q25": 0.8393250000000001,
+        "q75": 0.847925
+      },
+      "reward": {
+        "mean": -78.325,
+        "median": -77.90000000000002,
+        "std": 3.3737899065195696,
+        "min": -87.34999999999998,
+        "max": -71.14999999999999
+      },
+      "eta": {
+        "mean": -0.0010000000000000002,
+        "median": -0.001,
+        "std": 2.168404344971009e-19
+      },
+      "decay": {
+        "mean": 0.05000000000000002,
+        "median": 0.05,
+        "std": 1.3877787807814457e-17
+      },
+      "convergence_gen_90pct": 1,
+      "stratum_counts": {
+        "weak": 0,
+        "low_mid": 0,
+        "high_mid": 30,
+        "near_perfect": 0,
+        "perfect": 0
+      },
+      "structure": {
+        "n": 30,
+        "neurons_median": 400.0,
+        "neurons_mean": 382.03333333333336,
+        "neurons_std": 81.05696899232181,
+        "connections_median": 1080.5,
+        "connections_mean": 1120.7666666666667,
+        "connections_std": 326.72584668019283
+      }
+    },
+    "C": {
+      "n_runs": 30,
+      "n_final_bests": 30,
+      "fitness": {
+        "mean": 0.8430566666666667,
+        "median": 0.84345,
+        "std": 0.006036703478628781,
+        "min": 0.8325,
+        "max": 0.8517,
+        "q25": 0.8387,
+        "q75": 0.848675
+      },
+      "reward": {
+        "mean": -78.47166666666666,
+        "median": -78.275,
+        "std": 3.0183517393143906,
+        "min": -83.74999999999999,
+        "max": -74.14999999999999
+      },
+      "eta": {
+        "mean": -0.000636858930398249,
+        "median": -0.00446625594681733,
+        "std": 0.03807033456719305
+      },
+      "decay": {
+        "mean": 0.046008382421768315,
+        "median": 0.04256023535850203,
+        "std": 0.0299616314562963
+      },
+      "convergence_gen_90pct": 3,
+      "stratum_counts": {
+        "weak": 0,
+        "low_mid": 0,
+        "high_mid": 30,
+        "near_perfect": 0,
+        "perfect": 0
+      },
+      "structure": {
+        "n": 30,
+        "neurons_median": 400.0,
+        "neurons_mean": 385.06666666666666,
+        "neurons_std": 70.6894302958763,
+        "connections_median": 1051.5,
+        "connections_mean": 1232.8666666666666,
+        "connections_std": 558.4050342020765
+      }
+    }
+  },
+  "mann_whitney_tests": {
+    "A_vs_B": {
+      "U": 453.0,
+      "p_raw": 0.9705123657701689,
+      "p_bonferroni": 1.0,
+      "effect_size_r": -0.006666666666666599,
+      "n1": 30,
+      "n2": 30,
+      "median_1": 0.843,
+      "median_2": 0.8442
+    },
+    "A_vs_C": {
+      "U": 474.5,
+      "p_raw": 0.7226902411226235,
+      "p_bonferroni": 1.0,
+      "effect_size_r": -0.05444444444444452,
+      "n1": 30,
+      "n2": 30,
+      "median_1": 0.843,
+      "median_2": 0.84345
+    },
+    "B_vs_C": {
+      "U": 452.0,
+      "p_raw": 0.9823058241352554,
+      "p_bonferroni": 1.0,
+      "effect_size_r": -0.004444444444444473,
+      "n1": 30,
+      "n2": 30,
+      "median_1": 0.8442,
+      "median_2": 0.84345
+    }
+  },
+  "sign_test_anti_hebbian": {
+    "n_runs": 30,
+    "n_negative": 18,
+    "n_positive": 12,
+    "n_zero": 0,
+    "sign_test_p": 0.36159460805356514,
+    "anti_hebbian_fraction": 0.6,
+    "median_eta": -0.00446625594681733,
+    "mean_eta": -0.000636858930398249,
+    "std_eta": 0.03807033456719305
+  }
+}
