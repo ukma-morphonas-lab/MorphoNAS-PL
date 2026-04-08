@@ -2,9 +2,38 @@
 
 **Plasticity in Embryogenic Neural Architecture Search**
 
+[![arXiv](https://img.shields.io/badge/arXiv-2604.03386-b31b1b.svg)](https://arxiv.org/abs/2604.03386)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
+
 This repository contains the code and data for our experiments on Hebbian
 plasticity in recurrent networks grown by
 [MorphoNAS](https://github.com/sergemedvid/MorphoNAS).
+
+> **Preprint:** [arXiv:2604.03386](https://arxiv.org/abs/2604.03386)
+
+## Abstract
+
+Developmental approaches to neural architecture search grow functional networks
+from compact genomes through self-organisation, but the resulting networks
+operate with fixed post-growth weights. We characterise Hebbian and
+anti-Hebbian plasticity across 50,000 morphogenetically grown recurrent
+controllers (5M+ configurations on CartPole and Acrobot), then test whether
+co-evolutionary experiments — where plasticity parameters are encoded in the
+genome and evolved alongside the developmental architecture — recover these
+patterns independently. Our characterisation reveals that (1) anti-Hebbian
+plasticity significantly outperforms Hebbian for competent networks (Cohen's
+d = 0.53–0.64), (2) regret (fraction of oracle improvement lost under the best
+fixed setting) reaches 52–100%, and (3) plasticity's role shifts from
+fine-tuning to genuine adaptation under non-stationarity. Co-evolution
+independently discovers these patterns: on CartPole, 70% of runs evolve
+anti-Hebbian plasticity (p = 0.043); on Acrobot, evolution finds near-zero η
+with mixed signs — exactly matching the characterisation. A random-RNN control
+shows that anti-Hebbian dominance is generic to small recurrent networks, but
+the degree of topology-dependence is developmental-specific: regret is 2–6×
+higher for morphogenetically grown networks than for random graphs with matched
+topology statistics.
+
+---
 
 The public release is organized around nine experiments:
 
@@ -511,3 +540,38 @@ at |η| > 0.2.
 | Co-evolution (CartPole)? | All three conditions (A, B, C) consistently evolve perfect controllers (reward = 500). Condition C co-evolves η values with mixed signs across runs — evolution does not uniformly converge to anti-Hebbian, suggesting the optimal plasticity sign is architecture-dependent even under evolutionary pressure. Full analysis via `analyze_B1_coevolution.py`. |
 | Co-evolution (Acrobot)? | Acrobot is a harder benchmark: best fitness plateaus below 1.0 in 200 generations. Condition C evolves η in the anti-Hebbian range. Cross-task comparison with CartPole B1 reveals whether co-evolution benefits scale with task difficulty. |
 | Developmental vs random? | Random RNNs matching MorphoNAS topology stats are 8× less likely to be competent (0.6% vs 4.7%), indicating that developmental structure provides a strong inductive bias for viable controller architectures. Plasticity sweep on the 65 competent random RNNs enables direct comparison of topology-dependence patterns. Full analysis via `analyze_B2_random_rnn.py`. |
+
+---
+
+## Compute requirements
+
+The full experimental programme (characterisation, co-evolution, and random-RNN
+control) required approximately **7,700 core-hours** on AWS `c6i.4xlarge`
+instances (Intel Xeon 8375C, 16 vCPU). Individual experiment times are noted
+inline in the reproduction instructions above.
+
+---
+
+## Data availability
+
+All sweep results, pool parquets, and analysis outputs are committed directly
+in the repository — no external downloads or Git LFS required. Large parquet
+files are split into parts under 100 MB to stay within GitHub's file-size
+limit. Total repository size is approximately **830 MB** of experiment data
+(~2.7 GB on disk including git history).
+
+---
+
+## Citation
+
+If you use this code or data, please cite:
+
+```bibtex
+@article{medvid2026plasticity,
+  title   = {Activity-Dependent Plasticity in Morphogenetically-Grown
+             Recurrent Networks},
+  author  = {Medvid, Sergii and Valenia, Andrii and Glybovets, Mykola},
+  journal = {arXiv preprint arXiv:2604.03386},
+  year    = {2026}
+}
+```
